@@ -1,0 +1,18 @@
+/* ---------------------------------------------------------------------------------------------------
+	
+	CSS for JWPanel
+	
+--------------------------------------------------------------------------------------------------- */
+#jwpanel { width:780px; }
+
+.jw-file-uploader {
+	background:#eaeff3;
+	border:1px solid #c6c9ce;
+	border-radius:3px;
+	color:#666;
+	cursor: pointer;
+	font-size:11px !important;
+	float: left;
+	height:auto !important;
+	padding:5px 10px !important;
+}

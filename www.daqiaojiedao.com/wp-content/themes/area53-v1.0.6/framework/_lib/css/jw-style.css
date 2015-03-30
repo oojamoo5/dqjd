@@ -1,0 +1,40 @@
+/* ---------------------------------------------------------------------------------------------------
+	
+	CSS for JW Framework
+	
+--------------------------------------------------------------------------------------------------- */
+
+.col-clear:after{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.col-clear{ .zoom:1; }
+
+/* General */
+
+.jw-custom { border:1px solid #c6c9ce; margin-top:40px; color:#666; font-size:11px; position:relative; }
+	.jw-sidebar { background:#eaeff3 url("../images/sidebar-shade.png") top right repeat-y; border-right:1px solid #c6c9ce; float:left; width:150px; padding:10px 0; position:absolute; top:0; left:0; bottom:0; }
+		.jw-sidebar ul { margin:0; padding:0; list-style-type:none; }
+			.jw-sidebar ul li { display:block; }
+				.jw-sidebar ul li a { text-decoration:none; display:block; padding:5px 15px; text-shadow:1px 1px 1px #fff; font-weight:bold; color:#6d8ba3; }
+			.jw-sidebar ul li.active a { background:#fff; color:#333; text-shadow:none; border-top:1px solid #c6c9ce; border-bottom:1px solid #c6c9ce; margin-right:-1px; }
+	.jw-content { padding:15px; padding-left:170px; background:#fff; }
+		.jw-section-description { margin-bottom:20px; border-bottom:1px dashed #ddd; padding-bottom:15px; }
+			.jw-section-description h4 { font-size:14px; font-weight:bold; margin-top:0; margin-bottom:5px;}
+		.jw-field { margin-bottom:15px; padding-bottom:15px; border-bottom:1px dashed #eee; zoom:1; }
+		.jw-field:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+			.jw-field label { display:block; float:left; width:100px; margin-right:15px; font-weight:bold; }
+			.jw-field-content { float:left; width:60%; }
+			.jw-field-description { color:#888; font-size:10px; line-height:16px; margin-top:5px; }
+			
+		.jw-field input[type=text], .jw-field textarea, .jw-field select, .jw-field .jw-button, .qq-upload-button { padding:5px 10px !important; height:auto !important; font-size:11px !important; color:#666; background:#eaeff3; border:1px solid #c6c9ce; border-radius:3px; }
+		.jw-field select { -webkit-appearance: button; padding-right:21px !important; background:#eaeff3 url("../images/select-bg.png") right center no-repeat; }
+		.jw-field option { background:#fff; }
+		.jw-field input[type=text] { width:50%; }
+		.jw-field textarea { width:100%; height:200px !important; }
+		.jw-field .jw-button, .qq-upload-button { display:inline-block;text-decoration:none; }
+		.jw-field .jw-button.jw-button-upload, .qq-upload-button { padding-left:25px !important; background-image:url("../images/upload.png"); background-repeat:no-repeat; background-position:10px center; }
+		.jw-radio-option { display:block; margin-bottom:5px; line-height:11px; }
+		
+		.jw-field-font-demo { margin-top:5px; border: 1px dashed #ddd; background:#fff; padding:10px; }
+		
+.jw-field-service-icons { overflow:hidden; }
+	.jw-field-service-icons li { float:left; padding:3px; margin:3px; cursor:pointer; border:2px solid #fff; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; opacity:0.8; }
+	.jw-field-service-icons li.jw-field-service-icon-active { border-color:#88ac88; opacity:1; }

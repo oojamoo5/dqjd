@@ -1,0 +1,497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AREA53 v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-30 13:27+0100\n"
+"PO-Revision-Date: 2012-08-30 13:27+0100\n"
+"Last-Translator: WPScientist <wpscientist@gmail.com>\n"
+"Language-Team: WPScientist <wpscientist@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:20
+msgid "The page you are looking for could not be found."
+msgstr ""
+
+#: ../archive.php:63 ../search.php:63 ../single.php:79
+#: ../template-blog.php:104
+#: ../framework/composer-framework/modules/blog_posts/blog_posts.php:248
+msgid "jS F Y"
+msgstr ""
+
+#: ../archive.php:65 ../search.php:65 ../single.php:81
+#: ../template-blog.php:106
+msgid "No comments"
+msgstr ""
+
+#: ../archive.php:65 ../search.php:65 ../single.php:81
+#: ../template-blog.php:106
+msgid "One comment"
+msgstr ""
+
+#: ../archive.php:65 ../search.php:65 ../single.php:81
+#: ../template-blog.php:106
+msgid "comments"
+msgstr ""
+
+#: ../archive.php:79 ../search.php:79 ../template-blog.php:120
+msgid "Read the article &rarr;"
+msgstr ""
+
+#: ../archive.php:85 ../search.php:85
+msgid "No related content found."
+msgstr ""
+
+#: ../comments.php:11
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:34 ../comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:35 ../comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:36 ../comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:57
+msgid "There are no comments yet."
+msgstr ""
+
+#: ../comments.php:64 ../framework/shortcodes.php:1515
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:70 ../framework/shortcodes.php:1516
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:75
+msgid "Website"
+msgstr ""
+
+#: ../footer.php:42 ../sidebar-blog.php:44 ../sidebar.php:33
+msgid "No Widgets Added Yet"
+msgstr ""
+
+#: ../footer.php:43
+msgid ""
+"Please add them in the WordPress admin page under Appearance &rarr; Widgets. "
+"The widget section is"
+msgstr ""
+
+#: ../header.php:189
+msgid "Navigate to"
+msgstr ""
+
+#: ../header.php:239
+msgid "Search"
+msgstr ""
+
+#: ../header.php:241
+msgid "Showing results for the search term"
+msgstr ""
+
+#: ../header.php:245
+msgid "404 - Not Found"
+msgstr ""
+
+#: ../header.php:274
+msgid "filter by"
+msgstr ""
+
+#: ../header.php:278
+msgid "All"
+msgstr ""
+
+#: ../sidebar-blog.php:45 ../sidebar.php:34
+msgid ""
+"Please add them in the WordPress admin page under Appearance &rarr; Widgets. "
+"The widget section is called"
+msgstr ""
+
+#: ../sidebar-portfolio.php:31
+msgid "Description"
+msgstr ""
+
+#: ../sidebar-portfolio.php:41
+msgid "Information"
+msgstr ""
+
+#: ../sidebar-portfolio.php:46
+msgid "Made by:"
+msgstr ""
+
+#: ../sidebar-portfolio.php:50
+msgid "Published:"
+msgstr ""
+
+#: ../sidebar-portfolio.php:63
+msgid "Categories:"
+msgstr ""
+
+#: ../sidebar-portfolio.php:74 ../sidebar-portfolio.php:76
+msgid "Client:"
+msgstr ""
+
+#: ../sidebar-portfolio.php:86
+msgid "Similar Projects"
+msgstr ""
+
+#: ../single-jw_portfolio.php:53
+msgid "project navigation"
+msgstr ""
+
+#: ../single.php:73 ../template-blog.php:98
+msgid "by"
+msgstr ""
+
+#: ../single.php:79 ../template-blog.php:104
+#: ../framework/_lib/frontend.functions.php:193
+msgid "on"
+msgstr ""
+
+#: ../single.php:80 ../template-blog.php:105
+msgid "in"
+msgstr ""
+
+#: ../single.php:81 ../template-blog.php:106
+msgid "with"
+msgstr ""
+
+#: ../single.php:105
+msgid "Author:"
+msgstr ""
+
+#: ../single.php:109
+msgid "There is no additional info about this author."
+msgstr ""
+
+#: ../template-blog.php:126
+msgid "The blog is empty."
+msgstr ""
+
+#: ../template-portfolio.php:248
+msgid "The portfolio is empty."
+msgstr ""
+
+#: ../framework/post-types.php:26
+#: ../framework/widgets/widget.slider-posts.php:200
+msgid "Portfolio"
+msgstr ""
+
+#: ../framework/post-types.php:27
+msgid "Portfolio Post"
+msgstr ""
+
+#: ../framework/post-types.php:28 ../framework/post-types.php:58
+msgid "Add New"
+msgstr ""
+
+#: ../framework/post-types.php:29
+msgid "Add New Portfolio Post"
+msgstr ""
+
+#: ../framework/post-types.php:30 ../framework/post-types.php:60
+#: ../framework/post-types.php:90
+msgid "Edit"
+msgstr ""
+
+#: ../framework/post-types.php:31
+msgid "Edit Portfolio Post"
+msgstr ""
+
+#: ../framework/post-types.php:32
+msgid "New Portfolio Post"
+msgstr ""
+
+#: ../framework/post-types.php:33
+msgid "View Portfolio"
+msgstr ""
+
+#: ../framework/post-types.php:34
+msgid "View Portfolio Post"
+msgstr ""
+
+#: ../framework/post-types.php:35
+msgid "Search Portfolio Posts"
+msgstr ""
+
+#: ../framework/post-types.php:36
+msgid "No portfolio posts found"
+msgstr ""
+
+#: ../framework/post-types.php:37
+msgid "No portfolio posts in Trash"
+msgstr ""
+
+#: ../framework/post-types.php:38
+msgid "Parent Portfolio"
+msgstr ""
+
+#: ../framework/post-types.php:56
+msgid "Testimonials"
+msgstr ""
+
+#: ../framework/post-types.php:57
+msgid "Testimonial"
+msgstr ""
+
+#: ../framework/post-types.php:59
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../framework/post-types.php:61
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../framework/post-types.php:62
+msgid "New Testimonial Post"
+msgstr ""
+
+#: ../framework/post-types.php:63
+msgid "View Testimonials"
+msgstr ""
+
+#: ../framework/post-types.php:64
+msgid "View Testmonial"
+msgstr ""
+
+#: ../framework/post-types.php:65
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../framework/post-types.php:66
+msgid "No testimonial found"
+msgstr ""
+
+#: ../framework/post-types.php:67
+msgid "No testimonial in Trash"
+msgstr ""
+
+#: ../framework/post-types.php:68
+msgid "Parent Testimonial"
+msgstr ""
+
+#: ../framework/post-types.php:86 ../framework/post-types.php:87
+msgid "Staff"
+msgstr ""
+
+#: ../framework/post-types.php:88 ../framework/post-types.php:89
+msgid "Add Staff Member"
+msgstr ""
+
+#: ../framework/post-types.php:91
+msgid "Edit Staff Member"
+msgstr ""
+
+#: ../framework/post-types.php:92
+msgid "New Staff Member"
+msgstr ""
+
+#: ../framework/post-types.php:93
+msgid "View Staff"
+msgstr ""
+
+#: ../framework/post-types.php:94
+msgid "View Staff Member"
+msgstr ""
+
+#: ../framework/post-types.php:95
+msgid "Search Staff"
+msgstr ""
+
+#: ../framework/post-types.php:96
+msgid "No Staff Members Found"
+msgstr ""
+
+#: ../framework/post-types.php:97
+msgid "No Staff Members Found in Trash"
+msgstr ""
+
+#: ../framework/post-types.php:98
+msgid "Parent Staff Member"
+msgstr ""
+
+#: ../framework/shortcodes.php:749
+msgid "Recent"
+msgstr ""
+
+#: ../framework/shortcodes.php:750
+msgid "Popular"
+msgstr ""
+
+#: ../framework/shortcodes.php:751
+msgid "Comments"
+msgstr ""
+
+#: ../framework/shortcodes.php:1456
+msgid "DETAILS"
+msgstr ""
+
+#: ../framework/shortcodes.php:1518
+msgid "Send"
+msgstr ""
+
+#: ../framework/widgets/widget.flickr.php:26
+#: ../framework/widgets/widget.twitter.php:26
+msgid "This is the description for the widget"
+msgstr ""
+
+#: ../framework/widgets/widget.flickr.php:32
+msgid "Flickr Widget"
+msgstr ""
+
+#: ../framework/widgets/widget.flickr.php:87
+msgid "Flickr Stream"
+msgstr ""
+
+#: ../framework/widgets/widget.flickr.php:92
+#: ../framework/widgets/widget.rpc.php:90
+#: ../framework/widgets/widget.slider-posts.php:179
+#: ../framework/widgets/widget.twitter.php:92
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/widget.flickr.php:98
+#: ../framework/widgets/widget.twitter.php:98
+msgid "Profile:"
+msgstr ""
+
+#: ../framework/widgets/widget.flickr.php:104
+#: ../framework/widgets/widget.rpc.php:96
+#: ../framework/widgets/widget.slider-posts.php:185
+#: ../framework/widgets/widget.twitter.php:104
+msgid "Amount:"
+msgstr ""
+
+#: ../framework/widgets/widget.rpc.php:26
+msgid "A tabbed listing of your recent posts, popular post and comments."
+msgstr ""
+
+#: ../framework/widgets/widget.rpc.php:32
+msgid "RPC Widget"
+msgstr ""
+
+#: ../framework/widgets/widget.rpc.php:85
+msgid "Posts and Comments"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:26
+msgid "Show posts in a jQuery powered slider."
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:32
+msgid "Slider Posts Widget"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:99
+msgid "Slider Posts"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:197
+msgid "Post Type:"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:199
+msgid "Blog"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:206
+msgid "Category:"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:228
+msgid "Automatic Slides (time in miliseconds):"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:234
+msgid "Order:"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:236
+msgid "Normal"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:237
+msgid "Random"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:243
+msgid "Show Thumbnail:"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:245
+msgid "Yes - Show the thumbnail"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:246
+msgid "No - Do not show the thumbnail"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:252
+msgid "Show Title:"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:254
+msgid "Yes - Show the title"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:255
+msgid "No - Do not show the title"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:261
+msgid "Show Excerpt:"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:263
+msgid "Yes - Show the excerpt"
+msgstr ""
+
+#: ../framework/widgets/widget.slider-posts.php:264
+msgid "No - Do not show the excerpt"
+msgstr ""
+
+#: ../framework/widgets/widget.twitter.php:32
+msgid "Twitter Widget"
+msgstr ""
+
+#: ../framework/widgets/widget.twitter.php:87
+msgid "Twitter Stream"
+msgstr ""
+
+#: ../framework/_lib/frontend.functions.php:197
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: ../framework/_lib/frontend.functions.php:200
+msgid "Reply"
+msgstr ""
+
+#: ../framework/_lib/frontend.functions.php:363
+msgid "You are here &rarr;"
+msgstr ""
+
+#: ../framework/_lib/frontend.functions.php:364
+msgid "Home"
+msgstr ""
+
+#: ../framework/_lib/frontend.functions.php:508
+msgid "There is no excerpt because this is a protected post."
+msgstr ""

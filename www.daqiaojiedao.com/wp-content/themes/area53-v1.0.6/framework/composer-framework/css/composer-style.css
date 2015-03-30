@@ -1,0 +1,86 @@
+/* ---------------------------------------------------------------------------------------------------
+	
+	CSS for Content Composer
+	
+--------------------------------------------------------------------------------------------------- */
+
+#jw_page_metabox_compose { display:none; }
+
+/* Base Layout */
+#jw-composer { position:relative; overflow:hidden; background:#fff; margin: -6px -10px; padding:10px; }
+	#jw-composer-modules { width:150px; margin-right:20px; float:left; }
+	#jw-composer-content  { overflow:hidden; float:left; }
+	
+/* Modules */
+#jw-composer-modules-inner { border-right:2px solid #eee; }
+	#jw-composer-modules ul li, #jw-composer-modules ul { list-style-type:none; margin:0; padding:0; }
+	#jw-composer-modules ul li { display:block; position:relative; }
+		#jw-composer-modules ul li a { text-decoration:none; display:block; padding:5px 0; text-shadow:1px 1px 1px #fff; font-weight:bold; color:#6d8ba3; }
+			#jw-composer-modules ul li small { color:#ddd; font-weight:normal; }
+	
+
+ 
+#jw-composer-content ul li { cursor:move; position:relative; margin-bottom:15px; background-color: #f1f1f1; background-image: -ms-linear-gradient(top,#F9F9F9,#ECECEC); background-image: -moz-linear-gradient(top,#F9F9F9,#ECECEC); background-image: -o-linear-gradient(top,#F9F9F9,#ECECEC); background-image: -webkit-gradient(linear,left top,left bottom,from(#F9F9F9),to(#ECECEC)); background-image: -webkit-linear-gradient(top,#F9F9F9,#ECECEC); background-image: linear-gradient(top,#F9F9F9,#ECECEC); }
+#jw-composer-content ul li div.jw-composer-inner { padding:5px 9px; height:18px; overflow:hidden; border:1px solid #ccc; text-shadow:1px 1px 1px #fff; font-weight:bold; color:#777; }
+	
+#jw-composer-content-top { background:transparent url("../images/top-area.png") left top no-repeat; overflow:hidden; padding-top:40px; margin-bottom:20px; }
+#jw-composer-content-main { background:transparent url("../images/main-area.png") left top no-repeat; overflow:hidden; padding-top:40px; margin-bottom:20px;  }
+#jw-composer-content-bottom { background:transparent url("../images/bottom-area.png") left top no-repeat; overflow:hidden; padding-top:40px;  }
+#jw-composer-edit  { background:transparent url("../images/edit-module.png") left top no-repeat; overflow:hidden; padding-top:40px; display:none; }
+	
+.jw-one-one { width:95%; float:left; }
+.jw-one-half { width:45%; margin-right:5%; float:left; }
+.jw-one-third { width:28.33%; margin-right:5%; float:left; }
+.jw-two-third  { width:61.66%; margin-right:5%; float:left; }
+.jw-one-fourth { width:20%; margin-right:5%; float:left; }
+.jw-three-fourth { width:70%; margin-right:5%; float:left; }
+
+.jw-composer-module-size-down { display:inline-block; width:7px; height:7px; background:transparent url("../images/arrow-left.png") center center no-repeat; }
+.jw-composer-module-size-up { display:inline-block; width:7px; height:7px; background:transparent url("../images/arrow-right.png") center center no-repeat; }
+.jw-composer-module-size { font-size:10px; color:#aaa; font-weight:normal; line-height:18px; }
+.jw-composer-module-title { margin-left:5px; line-height:18px; }
+.jw-composer-module-remove { position:absolute; right:9px; top:12px; display:block; width:7px; height:7px; background:transparent url("../images/delete.png") center center no-repeat; }
+.jw-composer-module-edit { position:absolute; right:21px; top:12px; display:block; width:7px; height:7px; background:transparent url("../images/edit.png") center center no-repeat; }
+
+
+.jw-composer-inner-confirm-remove { display:none; text-align:right; font-size:10px; }
+
+#jw-composer-content ul li.jw-composer-module-placeholder { float:left; margin-right:5%; background:transparent url("../images/drop-here.png") center center no-repeat !important; }
+#jw-composer-content ul#jw-composer-content-top li.jw-composer-module-placeholder { background-color:#8ca95e !important; }
+#jw-composer-content ul#jw-composer-content-main li.jw-composer-module-placeholder { background-color:#4684b0 !important; }
+#jw-composer-content ul#jw-composer-content-bottom li.jw-composer-module-placeholder { background-color:#c47474 !important; }
+
+#jw-composer-content ul li.jw-composer-sidebar-module { cursor:default; width:28.33%; margin-right:5%; float:right; display:block; display:none; background:transparent url("../images/sidebar-bg.png") !important; }
+	#jw-composer-content ul li.jw-composer-sidebar-module .jw-composer-sidebar-module-inner { padding:20px; text-shadow:1px 1px 1px #fff; font-weight:bold; color:#888; }
+	
+#jw-composer-edit-loading { background:transparent url("../images/loader.gif") left center no-repeat; padding:10px 0 10px 20px; }
+
+/* Menu */
+#jw-composer-menu-left { width:500px; }
+#jw-composer-menu-left, #jw-composer-menu-right { float:right; }
+#jw-composer-menu-left { margin-right:30px; color:#ddd; font-size:11px; line-height:16px;  }
+	#jw-composer-menu-left p { font-size:10px !important; line-height:16px; color:#eee; }
+	#jw-composer-menu-left textarea { width:100%; height:100px; font-size:11px; color:#666; }
+	.jw-composer-menu-title { display:inline-block; text-shadow:1px 0 0 #505158; padding:5px 10px; background:#70727c; color:#eee; font-size:13px; font-weight:bold; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+	.jw-composer-menu-subtitle { display:inline-block; text-shadow:1px 0 0 #505158; padding:5px 10px; background:#70727c; color:#eee; font-size:11px; font-weight:bold; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+	
+#jw-composer-menu-export, #jw-composer-menu-import, #jw-composer-menu-load, #jw-composer-menu-save { position:relative; padding:10px; background:#555; -webkit-border-bottom-right-radius: 2px; -webkit-border-bottom-left-radius: 2px; -moz-border-radius-bottomright: 2px; -moz-border-radius-bottomleft: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; } 
+
+#jw-composer-menu-load ul li { display:inline-block; margin-right:10px; } 
+	#jw-composer-menu-load ul li a { display:block; font-size:11px; padding:5px 10px; background:#444; color:#eee; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; } 
+		#jw-composer-menu-load ul li a:hover { background:#222; }
+		
+#jw-composer-menu-load #jw-composer-menu-load-user li a { display:inline-block; -webkit-border-top-right-radius: 0px; -webkit-border-bottom-right-radius: 0px; -moz-border-radius-topright: 0px; -moz-border-radius-bottomright: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; }
+	#jw-composer-menu-load .jw-remove-user-template { background:#222 url("../images/delete.png") no-repeat center center; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; -webkit-border-top-left-radius: 0px; -webkit-border-bottom-left-radius: 0px; -moz-border-radius-topleft: 0px; -moz-border-radius-bottomleft: 0px; border-top-left-radius: 0px; border-bottom-left-radius: 0px;  }
+	#jw-composer-menu-load .jw-remove-user-template:hover { background:#111 url("../images/delete.png") no-repeat center center; }
+
+.jw-composer-menu-loader { display:none; position:absolute; top:0; bottom:0; left:0; right:0; background:transparent url("../images/loader-white.gif") no-repeat center center; }
+
+#jw-composer-menu { position:absolute; top:0; right:20px; color:#eee; font-family:"Shanti"; }
+	#jw-composer-menu a { color:#eee; text-decoration:none; }
+	#jw-composer-menu-action { display:block; float:right; width:16px; height:16px; background:#555 url("../images/menu-icon.png") no-repeat center center; padding:5px 10px; -webkit-border-bottom-right-radius: 2px; -webkit-border-bottom-left-radius: 2px; -moz-border-radius-bottomright: 2px; -moz-border-radius-bottomleft: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; }
+	#jw-composer-menu-list { padding:5px 10px; background:#555; list-style-type:none; margin:0; -webkit-border-bottom-left-radius: 2px; -moz-border-radius-bottomleft: 2px; border-bottom-left-radius: 2px; }
+		#jw-composer-menu-list li  a{ display:block; background:#444; font-size:10px; padding:5px 10px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+		#jw-composer-menu-list li a:hover { background:#333; } 
+		
+#jw-composer-menu-overlay { display:none; background:transparent url("../images/menu-overlay.png"); position:absolute; top:0; left:0; right:0; bottom:0; }

@@ -1,0 +1,28 @@
+{"title":"Immortals","description":"Big Hero 6 Baymax","music_url":"http:\/\/112.56.114.82\/wechat\/music\/Immortals","hq_music_url":"http:\/\/112.56.114.82\/wechat\/music\/Immortals"}
+{"title":"Immortals","description":"Big Hero 6 Baymax","music_url":"http:\/\/112.56.114.82\/wechat\/music\/Immortals.mp3","hq_music_url":"http:\/\/112.56.114.82\/wechat\/music\/Immortals.mp3"}
+<xml>
+					<ToUserName><![CDATA[oC9yeuNm8xjAuskORSk2y4AqOYu0]]></ToUserName>
+					<FromUserName><![CDATA[gh_f272b7ef3137]]></FromUserName>
+					<CreateTime>1426219670</CreateTime>
+					<MsgType><![CDATA[music]]></MsgType>
+					<Music>
+					<Title><![CDATA[Immortals]]></Title>
+					<Description><![CDATA[]]></Description>
+					<MusicUrl><![CDATA[http://112.56.114.82/wechat/music/Immortals.mp3]]></MusicUrl>
+					<HQMusicUrl><![CDATA[http://112.56.114.82/wechat/music/Immortals.mp3]]></HQMusicUrl>
+					<ThumbMediaId><![CDATA[]]></ThumbMediaId>
+					</Music>
+					</xml>
+<xml>
+					<ToUserName><![CDATA[oC9yeuNm8xjAuskORSk2y4AqOYu0]]></ToUserName>
+					<FromUserName><![CDATA[gh_f272b7ef3137]]></FromUserName>
+					<CreateTime>1426219720</CreateTime>
+					<MsgType><![CDATA[music]]></MsgType>
+					<Music>
+					<Title><![CDATA[Immortals]]></Title>
+					<Description><![CDATA[Big Hero 6 Baymax]]></Description>
+					<MusicUrl><![CDATA[http://112.56.114.82/wechat/music/Immortals.mp3]]></MusicUrl>
+					<HQMusicUrl><![CDATA[http://112.56.114.82/wechat/music/Immortals.mp3]]></HQMusicUrl>
+					<ThumbMediaId><![CDATA[]]></ThumbMediaId>
+					</Music>
+					</xml>

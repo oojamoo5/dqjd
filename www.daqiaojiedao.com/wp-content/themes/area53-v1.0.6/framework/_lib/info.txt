@@ -1,0 +1,1 @@
+Things that are common for all the frameworks such as fields framework, layout and other are located here.
