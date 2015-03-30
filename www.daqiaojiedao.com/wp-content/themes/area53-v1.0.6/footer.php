@@ -42,6 +42,7 @@
 															   邮箱：2116616499@qq.com
 															</p>
 									</div>
+								
 								</div>
 							</div>
 							<div class="one-third">
@@ -62,9 +63,12 @@
 									</ul>
 								</div>
 							</div>
-							
+				
 						</div>
-						
+						<div style="width:90%;margin:15px auto;text-align: center">
+							<div>© 2015 上海市大桥街道版权所有 ICP证：沪ICP备15011128号-1</div>
+							<div></div>
+						</div>
 					<?php }else{ ?>
 						
 						<?php echo $jw_option[$sn.'_footer_main_text']; ?>
