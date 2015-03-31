@@ -91,10 +91,10 @@
 					</div><!-- .blog-post-thumbnail -->
 					
 				<?php } ?>
-			
-				
+				<div><strong style="font-size: 18px"><?php the_post_title()?></strong></div>
 				<div class="blog-post-content">
 					<?php
+
 						if($jw_option[$sn.'_blog_listing_content_type'] == 'excerpt'){
 							the_excerpt();
 						}else{
