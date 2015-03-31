@@ -223,6 +223,10 @@ function the_content( $more_link_text = null, $strip_teaser = false) {
 	echo $content;
 }
 
+function the_post_title($post_id = ''){
+	$title = get_post_title($post_id);
+	echo $title;
+}
 /**
  * Retrieve the post content.
  *
@@ -294,6 +298,12 @@ function get_the_content( $more_link_text = null, $strip_teaser = false ) {
 		$output =	preg_replace_callback( '/\%u([0-9A-F]{4})/', '_convert_urlencoded_to_entities', $output );
 
 	return $output;
+}
+
+function get_post_title($post_id = ''){
+	$post = get_post($post_id);
+
+	return $post->post_title;
 }
 
 /**
